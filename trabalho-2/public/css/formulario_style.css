@@ -1,0 +1,63 @@
+.hide {
+    display: none;
+}
+label b{
+    color: black;
+}
+
+.table-wrapper {
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#NomedaTabela{
+font-size: 22px;
+}
+
+
+
+
+.table-wrapper h1 {
+font-size: 22px;
+text-align:left;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    font-size: 10px
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+h2 {
+font-size: 30px;
+font-style: italic;
+text-align: center;
+width: 100%
+}
+
+.css-serial {
+counter-reset: serial-number; /* Set the serial number counter to 0 */
+}
+
+.css-serial td:first-child:before {
+counter-increment: serial-number; /* Increment the serial number counter */
+content: counter(serial-number); /* Display the counter */
+}
+
+

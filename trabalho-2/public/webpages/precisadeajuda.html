@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>UNIDCOM | Precisa de ajuda </title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="/javas/mailer.js"></script> 
+</head>
+
+<body>
+    
+                    <div class="header">
+                        <a href="/index.html"><img class="logo" src="/imagens/logo.png" /></a>
+                        <input type="checkbox" id="chk">
+                        <label for="chk" class="show-menu-btn">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </label>
+                    
+                    <ul class="menu">
+                   
+                        <a href="/webpages/login.html">Login</a>
+                       
+                        <a href="/webpages/registo.html">Registo</a>
+                    
+                        <a href="/webpages/formulario.html">Formulario</a>
+                  
+                        <a href="/webpages/precisadeajuda.html">Precisa de ajuda</a>
+                    
+                        <a href="/webpages/sobrenos.html">Sobre nós</a>
+
+                            <label for="chk" class="hide-menu-btn">
+                                <i class="fas fa-times"></i>
+                            </label>
+                        </ul>
+
+                    </div>
+               
+ 
+                    <section>
+                        <form id="comunicar" action="javascript:void(0);">
+                            <h1>Precisa de Ajuda</h1>
+                            <p>*Nome: <input type="text" name="nome"><span id="nome"></span></p>
+                            <p>*Apelido: <input type="text" name="apelido"><span id="apelido"></span></p>
+                            <p>*Localidade: <input type="text" name="localidade"><span id="localidade"></span></p>
+                            <p>*E-mail: <input type="text" name="email"><span id="email"></span></p>
+                            <p>*Telefone: <input type="number" name="telefone"><span id="telefone"></span></p>
+                            <p>*Assunto: <input type="text" name="assunto"><span id="assunto"></span></p>			
+                            <p>*A sua mensagem: <br><textarea name="mensagem" style="width:250px;height:150px;"></textarea><span id="mensagem"></span></p>
+                            <p>*Campos Obrigatórios</p>
+                            <input  type="button"  value="Enviar" onclick="post()";>
+ 
+                        </form>
+                    
+                    </section>
+   
+</body>
+
+<footer>
+  <a href="mailto:UNIDCOMEngenhariaInformatica@gmail.com">Email: UNIDCOMEngenhariaInformatica@gmail.com</a>      
+</footer>
+
+</html>

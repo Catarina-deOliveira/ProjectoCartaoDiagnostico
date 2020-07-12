@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>UNIDCOM | Registo </title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    
+</head>
+
+<body>
+    
+                    <div class="header">
+                        <a href="/index.html"><img class="logo" src="/imagens/logo.png" /></a>
+                        <input type="checkbox" id="chk">
+                        <label for="chk" class="show-menu-btn">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </label>
+                    
+                        <ul class="menu">
+                   
+                            <a href="/webpages/login.html">Login</a>
+                           
+                            <a href="/webpages/registo.html">Registo</a>
+                        
+                            <a href="/webpages/formulario.html">Formulario</a>
+                      
+                            <a href="/webpages/precisadeajuda.html">Precisa de ajuda</a>
+                        
+                            <a href="/webpages/sobrenos.html">Sobre nós</a>
+    
+                                <label for="chk" class="hide-menu-btn">
+                                    <i class="fas fa-times"></i>
+                                </label>
+                            </ul>
+
+                    </div>
+               
+ 
+                    <section>
+                        <form id="registo" action="javascript:void(0);">
+                            <h1>Registo de Novo Utilizador</h1>
+                            <p>*Nome: <input type="text" name="nome"><span id="nome"></span></p>
+                            <p>*Apelido: <input type="text" name="apelido"><span id="apelido"></span></p>
+                            <p>*Data de Nascimento: <input type="date" name="data"><span id="data"></span></p>
+                            <p>Morada: <input type="text" name="morada"></p>
+                            <p>Código Postal: <input type="text" name="postal"></p>
+                            <p>Número Telemovel: <input type="tel" name="telemovel"></p>
+                            <p>Profissão: <input type="text" name="profissão"></p>
+                            <p>*E-mail: <input type="email" name="email"><span id="email"></span></p>
+                            <p>*Confirmar E-mail: <input type="email" name="email2"><span id="email2"></span></p>
+                            <p>*Password: <input type="password" name="password"><span id="password"></span></p>
+                            <p>*Confirmar Password: <input type="password" name="password2"><span id="password2"></span></p>
+                            <p id="campos">*Campos Obrigatórios</p>
+                            <p><input type="checkbox" id="checkcondicao"><a href="/webpages/condicoes_gerais.html" target="_blank">Li e aceito as condições gerais de utilização</a><p>
+                            <div id="Registar">
+                                <input type="button" value="Registar" onclick="post()">
+                                <input type="button" value="Cancelar" onclick="window.location.href='/index.html'">
+                            </div>
+                        </form>
+
+                    
+                    </section>
+   
+</body>
+
+<footer>
+
+        
+        <a href="mailto:UNIDCOMEngenhariaInformatica@gmail.com">Email: UNIDCOMEngenhariaInformatica@gmail.com</a>
+        
+        
+</footer>
+
+
+
+
+</html>

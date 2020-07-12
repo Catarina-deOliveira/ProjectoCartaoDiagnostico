@@ -1,0 +1,489 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UNIDCOM | Formulario </title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/formulario_style.css">
+    
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+  
+    <script src="/javas/formulario.js"></script> 
+ 
+</head>
+
+
+    
+                    <div class="header">
+                        <a href="/index.html"><img class="logo" src="/imagens/logo.png" /></a>
+                        <input type="checkbox" id="chk">
+                        <label for="chk" class="show-menu-btn">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </label>
+                    
+                        <ul class="menu">
+                   
+                            <a href="/webpages/login.html">Login</a>
+                           
+                            <a href="/webpages/registo.html">Registo</a>
+                        
+                            <a href="/webpages/formulario.html">Formulario</a>
+                      
+                            <a href="/webpages/precisadeajuda.html">Precisa de ajuda</a>
+                        
+                            <a href="/webpages/sobrenos.html">Sobre nós</a>
+    
+                                <label for="chk" class="hide-menu-btn">
+                                    <i class="fas fa-times"></i>
+                                </label>
+                            </ul>
+
+                    </div>
+
+               
+                    
+ 
+                <body>
+                    <div class="canvas_div_pdf">
+                        <div id="formWrapper">
+                            <br>
+                            <h1>Configuração do seu Formulário</h1>
+                            <form>
+                               <div>
+                                   <br>
+                                        <label class="one" for="Nome">
+                                        <b>Nome POP: </b>
+                                        <p class="hide"></p>
+                                        <input class="getValue" type="text" id="Nome">
+                                    </label>
+                                </div>
+                               <br>
+                                <div>
+                                    <br>
+                                        <label class="one" for="Descricao">
+                                             <b>Descrição da POP </b>
+                                             <p class="hide"></p>
+                                          <textarea id="Descricao" name="Descricao" rows="4" cols="50"></textarea></br>
+                                        </label>
+                                     
+                                </div>
+                               <br>
+                           </form>
+                           <br>
+                          <h2>Palavras-Chave</h2>
+                          <br>
+                           <div class="table-wrapper">
+                            <h1>Patologia</h1>
+                            <table>
+                                <tr>
+                                    <td>#</td>
+                                    <td>Nome</td>
+                                    <td>Descrição</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <button  class="button" onclick="deleteTable(this)">delete</button>
+                           </div>
+                       </div> 
+                       
+                            <div class="table-wrapper">
+                                <h1>Sintoma</h1>
+                                <table>
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Nome</td>
+                                        <td>Descrição</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <button class="button" onclick="deleteTable(this)">delete</button>
+                            </div>
+                            <div class="table-wrapper">
+                                <h1>Tarefas</h1>
+                                <table>
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Nome</td>
+                                        <td>Descrição</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <button class="button" onclick="deleteTable(this)">delete</button>
+                            </div>
+                
+                
+                            <div class="table-wrapper">
+                                <h1 style='page-break-before: always'>Sector Atividade</h1>
+                                <table>
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Nome</td>
+                                        <td>Descrição</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <button class="button" onclick="deleteTable(this)">delete</button>
+                            </div>
+                
+                
+                            <div class="table-wrapper">
+                                <h1>Função</h1>
+                                <table>
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Nome</td>
+                                        <td>Descrição</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <button class="button" onclick="deleteTable(this)">delete</button>
+                            </div>
+                
+                
+                            <div class="table-wrapper">
+                                <h1>Recomendações Local de Trabalho</h1>
+                                <table>
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Tipo</td>
+                                        <td>Nome</td>
+                                        <td>Requesitos</td>
+                                        <td>Iso/Ref.</td>
+                                        <td>Benefefícios</td>
+                                        <td>Custo</td>
+                                        <td>Tempo Adaptação</td>
+                                        <td>Colmatação</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <button class="button" onclick="deleteTable(this)">delete</button>
+                            </div>
+                
+                
+                            <div class="table-wrapper">
+                                <h1 style='page-break-before: always'>Produtos de apoio</h1>
+                                <table>
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Tipo</td>
+                                        <td>Nome</td>
+                                        <td>Requesitos</td>
+                                        <td>Iso/Ref.</td>
+                                        <td>Benefefícios</td>
+                                        <td>Custo</td>
+                                        <td>Tempo Adaptação</td>
+                                        <td>Colmatação</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <button class="button" onclick="deleteTable(this)">delete</button>
+                            </div>
+                
+                           
+                             <div class="table-wrapper">
+                                <h1><label class="two" for="NomedaTabela">
+                                    
+                                 <p class="hide"></p>
+                                   <input class="getValue" type="text" id="NomedaTabela">
+                                  </label></h1>
+                
+                             <table id="tblSample" class="css-serial">
+                              <thead>
+                               <tr>
+                                 <th>#</th>
+                
+                                 
+                
+                                    </tr>
+                             </thead>
+                                     <tbody>
+                                <tr>
+                                <td></td>
+                               
+                                </tr>
+                        
+                             </tbody>
+                                  </table>
+                
+                             <p>
+                            <input type="button" value="add column" onclick="addColumn('tblSample')" />
+                            <input type="button" value="delete column" onclick="deleteColumn('tblSample')" />
+                            <input type="button" id="addLinha" value="Adicionar Nova Linha" onclick="addLinha('tblSample')" />
+                                <input type="button" id="removerLinha" value=" Remover Linha" onclick="removerLinha('tblSample')" />
+                               
+                            </p>
+                            <button class="button" onclick="deleteTable(this)">delete</button>          
+                        </div>
+                
+                
+                
+                
+                            <div class="table-wrapper">
+                             <h1><label class="two" for="NomedaTabela">         
+                                <p class="hide"></p>
+                                <input class="getValue" type="text" id="NomedaTabela">
+                            </label></h1>
+                
+                            <table id="tblSample1" class="css-serial">
+                                <thead>
+                                 <tr>
+                                   <th>#</th>
+                  
+                                   
+                  
+                                      </tr>
+                               </thead>
+                                       <tbody>
+                                  <tr>
+                                  <td></td>
+                                 
+                                  </tr>
+                          
+                               </tbody>
+                                    </table>
+                
+                        <p>
+                            <input type="button" value="add column" onclick="addColumn('tblSample1')" />
+                            <input type="button" value="delete column" onclick="deleteColumn('tblSample1')" />
+                            <input type="button" id="addLinha" value="Adicionar Nova Linha" onclick="addLinha('tblSample1')" />
+                                <input type="button" id="removerLinha" value=" Remover Linha" onclick="removerLinha('tblSample1')" />
+                               
+                            </p>
+                            <button class="button" onclick="deleteTable(this)">delete</button>
+                        </div>
+                
+                
+                
+                        <div class="table-wrapper">
+                
+                            <h1><label  class="two" for="NomedaTabela">
+                                <p class="hide"></p>
+                                <input class="getValue" type="text" id="NomedaTabela">
+                            </label></h1>
+                
+                            <table id="tblSample2" class="css-serial">
+                                <thead>
+                                 <tr>
+                                   <th>#</th>
+                  
+                                   
+                  
+                                      </tr>
+                               </thead>
+                                       <tbody>
+                                  <tr>
+                                  <td></td>
+                                 
+                                  </tr>
+                          
+                               </tbody>
+                                    </table>
+                
+                        <p> 
+                            <input type="button" value="add column" onclick="addColumn('tblSample2')" />
+                            <input type="button" value="delete column" onclick="deleteColumn('tblSample2')" />
+                            <input type="button" id="addLinha" value="Adicionar Nova Linha" onclick="addLinha('tblSample2')" />
+                                <input type="button" id="removerLinha" value=" Remover Linha" onclick="removerLinha('tblSample2')" />
+                               
+                            </p>
+                            <button  class="button" onclick="deleteTable(this)">delete</button>
+                         </div>
+                
+                </div>
+                    <button onClick="myFunction()" id="exportPDF">Download</button>
+   
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+                    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+                   
+                   
+                </body>
+<footer>        
+<a href="mailto:UNIDCOMEngenhariaInformatica@gmail.com">Email:UNIDCOMEngenhariaInformatica@gmail.com</a>
+</footer>
+</html>
